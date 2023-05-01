@@ -11,39 +11,49 @@
     <!--This the Navigation bar column-->
     <div class="navbar">
         <!--Navigaton bar and List-->
-        <div class="navlist">
-            <ol>
-                <li>Home</li>
-                <li>Search</li>
-                <li>Communities</li>
-                <li>Notifications</li>
-                <li>Messages</li>
-                <li>Bookmarks</li>
-                <li>Twitter Blue</li>
-                <li>Profile</li>
-                <li>More</li>
-            </ol>
+        <div class="navlist_all">
+            <nav>
+                <ol class="navlist">
+                    <li><img src="">Home</li>
+                    <li>Search</li>
+                    <li>Communities</li>
+                    <li>Notifications</li>
+                    <li>Messages</li>
+                    <li>Bookmarks</li>
+                    <li>Twitter Blue</li>
+                    <li>Profile</li>
+                    <li>More</li>
+                </ol>
+
+                 <!--Profile image at left bottom-->
+                <div>
+                    <nav>
+                        <ol class="navlist">
+                            <li><img src="avatar.PNG" id="avatar" width="50%" height="50%" class="profile_setting"></li>
+                        </ol>
+                    </nav>
+                </div>
+            </nav>
         </div>
-        <!--Profile image at left bottom-->
-        <div>
-            <ol class="profile">
-                <li><img src="avatar.jpeg"</li>
-            </ol>
-        </div>
+        
     </div>
-    <!---->
+        
+    <!--Body Center-->
     <div class="tweet_body">
         <div id="Home">
-            <p>Home</p>
+            <p style="font-size: 200%;">Home</p>
             <div id="top_switch">
-                <button>For you</button>
-                <button>Following</button>
+                <button class="button">For you</button>
+                <button class="button">Following</button>
             </div>
         </div>
         <div id="input_tweet">
-            <div id="input_profile"></div>
+            <div></div><img src="avatar.PNG" id="avatar" width="10%" height="10%"></div>
             <div>
-                <div id="tweet_text_input"><p>What's happening</p></div>
+                <div id="tweet_text_input">
+                    <textarea placeholder="What's happening"></textarea>
+                </div>
+
                 <div id="tweet_attachments"></div>
             </div>
         </div>
@@ -56,3 +66,123 @@
     <div class="trends"></div>
 </body>
 </html>
+<!--
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter CSS Wireframe</title>
+    <style>
+      /* Set up basic styles */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      header {
+        background-color: #1DA1F2;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      #search-box {
+        background-color: #fff;
+        border: none;
+        padding: 8px;
+        border-radius: 20px;
+        width: 300px;
+        margin-right: 20px;
+      }
+      #search-box:focus {
+        outline: none;
+        box-shadow: 0 0 5px #1DA1F2;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      nav ul li {
+        margin-right: 20px;
+      }
+      nav ul li a {
+        color: #1DA1F2;
+        text-decoration: none;
+      }
+      #tweet-button {
+        background-color: #1DA1F2;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      #tweet-button:hover {
+        background-color: #0C8ADB;
+      }
+      main {
+        display: flex;
+        margin: 10px;
+      }
+      .column {
+        flex: 1;
+        margin-right: 10px;
+      }
+      .column:last-child {
+        margin-right: 0;
+      }
+      .tweet {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .tweet h3 {
+        margin-top: 0;
+        font-size: 18px;
+      }
+      .tweet p {
+        margin-bottom: 0;
+        color: #888;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="logo">Twitter</div>
+      <input type="text" id="search-box" placeholder="Search Twitter">
+      <div id="profile-pic"><img src="https://via.placeholder.com/50x50" alt="Profile Pic"></div>
+    </header>
+    
+    <nav>
+      <div id="home-link"><a href="#">Home</a></div>
+      <ul>
+        <li><a href="#">Notifications</a></li>
+        <li><a href="#">Messages</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">More</a></li>
+      </ul>
+      <button id="tweet-button">Tweet</button>
+    </nav>
+    
+    <main>
+      <div class="column">
+        <div class="tweet">
+          <h3>First Tweet</h3>
+          <p>Some text here</p>
+        </div>
+       -->
