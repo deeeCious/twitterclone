@@ -20,15 +20,15 @@ body{
     list-style-type: none;
     padding-left: 5%;
 }
-.tweet_body{
+/*.tweet_body{
     padding-top: -50px;
     padding-left: 40px;
-}
-/**.tweet_body {
-    background-color: black;
-    margin-top: -232px;
-    margin-left: 20%;
 }*/
+.tweet_body {
+    background-color: black;
+    margin-top: -600px;
+    margin-left: 20%;
+}
 .button{
     height: 100%;
     width: 48%;
@@ -42,7 +42,7 @@ button:hover{
     background-color: rgb(40, 38, 38);
     border: 0px;
     color: white;
-    border-bottom: aqua;
+    border-bottom: #00ffff;
     height: 100%;
     width: 50%;
 }
@@ -60,7 +60,42 @@ textarea{
     resize: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 130%;
+    margin-top: -20%;
+    margin-left: 15%;
+}
+
+.icon_file{
+    width: 8%;
+    height: 8%;
+    margin-left: 10%;
 }
 #avatar{
     border-radius: 50px;
-}
+}form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="file"] {
+    margin: 1rem;
+  }
+  
+  input[type="submit"] {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  a{
+    font-size: large;
+    fo
+  }
+  
