@@ -26,7 +26,7 @@ body{
 }*/
 .tweet_body {
     background-color: black;
-    margin-top: -600px;
+    margin-top: -113%;
     margin-left: 20%;
 }
 .button{
@@ -38,6 +38,23 @@ body{
     background-color: black;
     border: black;
 }
+a:hover{
+    background-color: rgb(40, 38, 38);
+    border: 0px;
+    color: white;
+    border-bottom: #00ffff;
+    height: 200%;
+    width: 50%;
+}
+a {
+    font-weight: normal;
+}
+a:active{
+    background-color: black;
+    border-bottom: aqua;
+    font-weight: bold;
+}
+
 button:hover{
     background-color: rgb(40, 38, 38);
     border: 0px;
@@ -51,6 +68,7 @@ button:active{
     border-bottom: aqua;
     font-weight: bolder;
 }
+
 textarea{
     background-color: black;
     color: white;
@@ -64,10 +82,36 @@ textarea{
     margin-left: 15%;
 }
 
-.icon_file{
-    width: 8%;
-    height: 8%;
+.nav_icon{
+    width: 10%;
+    height: 10%;
     margin-left: 10%;
+    color: white;
+
+}
+.tweet-button{
+    width: 15%;
+    height: 15%;
+    margin-left: 10%;
+    color: white;
+}
+.icon_file{
+    width: 5%;
+    height: 5%;
+    margin-left: 10%;
+    color: white;
+
+}
+.space1{
+    margin-bottom: 8%;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.icon_file1{
+    width: 20%;
+    height: 20%;
 }
 #avatar{
     border-radius: 50px;
@@ -96,6 +140,5 @@ textarea{
   }
   a{
     font-size: large;
-    fo
   }
   
